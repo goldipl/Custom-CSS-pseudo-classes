@@ -52,6 +52,11 @@ custom-div:--icon20left24::before {
 ```
 and that's all.
 
+## How can I use these pseudo-classes?
+Just add the file named `customPseudoClasses.js` to your project and it's done.    
+From now on you can use pseudo-classes in your project with for instance custom tag `<custom-div>`. Pseudo-classes like:
+* ```:--icon20left24```
+
 ## Sources:
 * [Custom State Pseudo Class W3C](https://wicg.github.io/custom-state-pseudo-class/)
 * [attachInternals()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/attachInternals)
